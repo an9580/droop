@@ -1,6 +1,6 @@
 export class DieDroop extends Die {
     constructor(termData) {
-        termData.faces=20;
+        termData.faces=6;
         super(termData);
     }
 
