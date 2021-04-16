@@ -1,0 +1,18 @@
+{
+	"name": "droop",
+	"title": "Droop",
+	"description": "Adds the ability to roll a Droop die",
+	"version": "1.0.4",
+	"minimumCoreVersion" : "0.7.2",
+	"compatibleCoreVersion" : "0.7.7",
+	"author": "Asif",
+	"esmodules": [
+		"./modules/droop.js"
+	],
+	"styles": [
+		"./css/droop.css"
+	],
+	"url": "https://github.com/an9580/droop",
+	"manifest": "https://raw.githubusercontent.com/an9580/droop/master/module.json",
+	"download": "https://raw.githubusercontent.com/an9580/droop/master/fvtt-szimfonia.zip"
+}
