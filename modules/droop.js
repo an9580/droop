@@ -73,7 +73,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     });
     dice3d.addDicePreset({
       type: "d20",
-      modelFile: "modules/assets/Droop Dice.glb",
+      modelFile: "modules/assets/droop.glb",
       system: "droop"
     });
 });
