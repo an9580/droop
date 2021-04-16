@@ -50,26 +50,26 @@ Hooks.on('diceSoNiceRollComplete', (chatMessageID) => {
 });
 
 Hooks.once('diceSoNiceReady', (dice3d) => {
-    dice3d.addSystem({id:"droop",name:"Droop"},true);
+    dice3d.addSystem({id:"droop",name:"droop"},true);
     dice3d.addDicePreset({
       type:"ds",
       labels:[
-        'modules/szimfonia-dice-roller/images/D1_bg.png', 
-        'modules/szimfonia-dice-roller/images/F2.png', 
-        'modules/szimfonia-dice-roller/images/S1.png', 
-        'modules/szimfonia-dice-roller/images/S2.png', 
-        'modules/szimfonia-dice-roller/images/F1.png', 
-        'modules/szimfonia-dice-roller/images/D1_bg.png'
+        'modules/droop/assets/D1_bg.png', 
+        'modules/droop/assets/F2.png', 
+        'modules/droop/assets/S1.png', 
+        'modules/droop/assets/S2.png', 
+        'modules/droop/assets/F1.png', 
+        'modules/droop/assets/D1_bg.png'
       ],
       bumpMaps:[
-        'modules/szimfonia-dice-roller/images/D1_bump.png', 
-        'modules/szimfonia-dice-roller/images/F2_bump.png', 
-        'modules/szimfonia-dice-roller/images/S1_bump.png', 
-        'modules/szimfonia-dice-roller/images/S2_bump.png', 
-        'modules/szimfonia-dice-roller/images/F1_bump.png', 
-        'modules/szimfonia-dice-roller/images/D1_bump.png'
+        'modules/droop/assets/D1_bump.png', 
+        'modules/droop/assets/F2_bump.png', 
+        'modules/droop/assets/S1_bump.png', 
+        'modules/droop/assets/S2_bump.png', 
+        'modules/droop/assets/F1_bump.png', 
+        'modules/droop/assets/D1_bump.png'
       ],
-      system:"szimfonia"
+      system:"droop"
     });
     dice3d.addDicePreset({
       type: "d20",
