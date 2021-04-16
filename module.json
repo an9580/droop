@@ -13,6 +13,6 @@
 		"./css/droop.css"
 	],
 	"url": "https://github.com/an9580/droop",
-	"manifest": "https://raw.githubusercontent.com/an9580/droop/main/module.json",
+	"manifest": "https://raw.githubusercontent.com/an9580/droop/module.json",
 	"download": "https://raw.githubusercontent.com/an9580/droop/master/fvtt-szimfonia.zip"
 }
